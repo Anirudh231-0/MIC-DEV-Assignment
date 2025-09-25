@@ -1,0 +1,26 @@
+.texts{
+    height: 300px;
+    background-color: #f8f4eb;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-shrink: 0;
+}
+
+#left-sec{
+    text-align:left;
+    display: inline-block;
+    
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+#right-sec{
+    display: inline-block;
+}
+
+#musi{
+    width:300px;
+    padding-left:200px;
+    padding-top: 25px;
+}

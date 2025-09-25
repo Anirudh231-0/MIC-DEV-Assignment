@@ -1,0 +1,21 @@
+.header{
+    background-color: black;
+    text-align: center;
+    height:90px;
+}
+
+
+
+#logo{
+    width: 75px;
+    margin-top:15px;
+}
+#name{
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color:white;
+    cursor: pointer;
+}
+

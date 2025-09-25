@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="texts.css">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="playlists.css">
+    <link rel="icon" href="muzic.jpeg" type="image/x-icon">
+    <title>Playlist Mood</title>
+</head>
+<body style="margin: 0; font-family: Arial, Helvetica, sans-serif;">
+    <div class="header">
+        <div class="mid-sec">
+            <img id="logo"src="apple-music-note.jpg">
+            <div id="name">
+                <div>Playlist</div>
+                <div>Mood</div>
+            </div>
+        </div>
+    </div>
+    <div class="texts">
+        <div id="left-sec">
+            <div>Your Mood</div>
+            <div style="margin-top:20px ;">Our Playlist</div>
+        </div>
+        <div id="right-sec">
+            <img id="musi" src="musics.jpeg">
+        </div>
+    </div>
+    <div class="search">
+        <input id="search-btn" type="text" placeholder="Enter your mood....">
+    </div>
+    <div class="buttons">
+        <div class="left-butt">
+            <button id="proceed-btn">Proceed</button>
+            <button id="slider-btn">Slider</button>
+        </div>
+        <div class="right-butt">
+            <button id="create-btn">+Create</button>
+        </div>
+    </div>
+
+    <div id="slider-panel" style="display:none;">
+        <input type="range" id="mood-slider" min="-1" max="1" step="1" value="0">
+        <div>
+            <span>😢 Sad</span>
+            <span style="margin: 0 60px;">😐 Confused</span>
+            <span>😊 Happy</span>
+        </div>
+    </div>
+
+    <div style="display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom:30px;
+    font-size: 35px;
+    color:red;" id="text-id"></div>
+
+    <div style="display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom:30px;
+    font-size: 50px;
+    font-weight: bold;">Try Out Our Other Playlists</div>
+
+
+    <div class="playlists-grid" id="playlist-container">
+        
+    </div>
+    <br>
+    <hr>
+    <p style="text-align: center;"><a href="https://i.pinimg.com/736x/1d/d7/2f/1dd72fe5b886ea71001b8bfb0c973ee6.jpg">Click Here</a></p>
+    <script src="redirecting.js" >
+    </script>
+</body>
+</html>
